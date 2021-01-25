@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            margin: 5px;;
+
+        }
+        #Email
+        {
+            position: relative;
+            left: 32px;
+        }
+        #Email_label
+        {
+            position: relative;
+            left:30px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="container">
+        <h2>Page Login  </h2>
+        <form action="/validate" method="POST">
+            
+            <label for="Email" id="Email_label">Email:</label>  
+            <input type="email" required id ="Email"name="Email">
+        </div>
+        <div>
+            <label for="Password">Password:</label>  
+            <input type="password" required id ="Password"name="Password" >
+            <div>
+            <input type="submit" value="Login">
+
+        </form>
+
+        <div><a href="./register">Click here to register</a></div>
+
+    </div>
+
+</body>
+</html>
